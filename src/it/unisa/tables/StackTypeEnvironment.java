@@ -12,7 +12,7 @@ public class StackTypeEnvironment implements TableStack<Table>{
 
     public String addId(String key, Row row)  {
         if (isEmpty()) {
-            System.err.println("Stack is empty!");
+            System.err.println("Empty stack");
             System.exit(1);
         }
         if(probe(key)){
